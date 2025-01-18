@@ -1,7 +1,10 @@
 /* ====== Colors ====== */
 :root {
-  --primary-color: #63392b;
-  --Secondary-color: #f2b672;
+  /* --primary-color: #63392b;
+  --Secondary-color: #f2b672; */
+
+  --primary-color: #f2b67294;
+  --Secondary-color: #63392bd2;
   --dark: #000000;
   --white: #fff;
   --grey: #808080;
@@ -37,7 +40,7 @@ a:hover {
 
 .header-section .menu-bar {
   width: 100%;
-  background-color: var(--Secondary-color);
+  background-color: var(--primary-color);
   border-bottom: 1px solid rgba(255, 255, 255, 0.096);
 }
 
@@ -71,7 +74,7 @@ a:hover {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: var(--primary-color);
+  background-color: var(--Secondary-color);
   bottom: 0;
   left: 0;
   transform: scaleX(0);
@@ -85,27 +88,7 @@ a:hover {
 }
 
 .header-section .navbar-nav .nav-link.active {
-  color: var(--primary-color);
-}
-
-.header-section .dropdown-menu {
-  background-color: var(--white);
-  color: var(--dark);
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 0;
-  padding-top: 15px;
-  display: none;
-  border: 1px solid white;
-  overflow: hidden;
-  border: 0;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.header-section .dropdown:hover .dropdown-menu {
-  display: block;
-  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.103);
+  color: var(--Secondary-color);
 }
 
 .header-section .sibar-toggle {
@@ -117,28 +100,6 @@ a:hover {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-right: 10px;
-}
-
-.header-section .dropdown-menu .dropdown-item {
-  font-size: 16px;
-  font-weight: 500;
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-.header-section .dropdown i {
-  transition: 0.6s;
-}
-
-.header-section .dropdown:hover i {
-  transform: rotate(180deg);
-  transition: 0.6s;
-}
-
-.header-section .dropdown-menu .dropdown-item:hover {
-  color: var(--white);
-  background-color: var(--primary-color);
-  animation-duration: 2s;
 }
 
 .header-section .navbar-toggler {
@@ -193,7 +154,7 @@ a:hover {
 .header-section .franchise-btn {
   color: var(--white);
   text-decoration: none;
-  background-color: var(--primary-color);
+  background-color: var(--Secondary-color);
   padding: 12px 15px;
   font-size: 16px;
   font-weight: 500;
@@ -224,31 +185,28 @@ a:hover {
 
 .hero-section {
   padding: 90px 0px;
-  background: url(../images/hero-image.jpg);
+  /* background: url(../images/banner.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
   position: relative;
-  z-index: 1;
+  z-index: 1; */
+  background-color: var(--Secondary-color);
 }
 
-.hero-section::before {
+/* .hero-section::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #0a0402e5;
+  background-color: #070403b4;
   z-index: -1;
-}
-
-.hero-section .caption {
-  padding: 0px 250px;
-}
+} */
 
 .hero-section .caption h1 {
-  color: var(--Secondary-color);
+  color: #ffc788;
   font-family: "Aladin", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   word-spacing: 2px;
 }
 
@@ -258,11 +216,11 @@ a:hover {
 }
 
 .hero-section .caption span {
-  color: var(--Secondary-color);
+  color: #ffc788;
   font-family: "Aladin", sans-serif;
   font-weight: 700;
-  font-size: 24px;
-  word-spacing: 2px;
+  font-size: 30px;
+  letter-spacing: 3px;
 }
 
 .hero-section .contact-query {
@@ -270,9 +228,9 @@ a:hover {
 }
 
 .hero-section .contact-query a {
-  color: var(--primary-color);
+  color: var(--Secondary-color);
   text-decoration: none;
-  background-color: var(--Secondary-color);
+  background-color: #ffc788;
   padding: 12px 10px;
   font-size: 16px;
   font-weight: 600;
@@ -286,25 +244,35 @@ a:hover {
   transition: 0.5s;
 }
 
+.hero-section .hero-image {
+  position: relative;
+  z-index: 1;
+  border-radius: 50%;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.hero-section .hero-image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--white);
+}
+
 /*=== hero-section-end ===*/
 
 /* ===about-section-start=== */
 
 .about-section {
   padding: 90px 0px;
-  background: url(../images/about-bg.jpg);
+  background-color: #ebbb83e8;
   background-size: cover;
   background-position: center;
   z-index: 1;
   position: relative;
-}
-
-.about-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: #e2a968e8;
-  z-index: -1;
+  overflow: hidden;
 }
 
 .about-section .about-content .section-title {
@@ -315,14 +283,14 @@ a:hover {
   position: relative;
   font-size: 18px;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--Secondary-color);
 }
 
 .about-section .section-title span::before {
   position: absolute;
   content: "";
   background-color: var(--dark);
-  height: 3px;
+  height: 0px;
   width: 82px;
   bottom: -13px;
   left: 0;
@@ -354,15 +322,15 @@ a:hover {
 .about-section .section-title h2 {
   font-size: 40px;
   font-weight: 600;
-  color: var(--primary-color);
-  margin-top: 40px;
+  color: var(--Secondary-color);
+  margin-top: 30px;
   font-family: "Aladin", sans-serif;
 }
 
 .about-section .section-title h3 {
   font-size: 30px;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--Secondary-color);
   font-family: "Aladin", sans-serif;
   margin-bottom: 30px;
 }
@@ -385,6 +353,33 @@ a:hover {
   margin-bottom: 25px;
 }
 
+.about-section .element {
+  position: relative;
+}
+
+.about-section .element-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
+.about-section .element-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 150px;
+  width: 150px;
+  animation: bounce linear infinite;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
 /* ===about-section-end==== */
 
 /* ===menu-section-start=== */
@@ -396,6 +391,7 @@ a:hover {
   background-position: center;
   z-index: 1;
   position: relative;
+  overflow: hidden;
 }
 
 .menu-section::before {
@@ -415,14 +411,13 @@ a:hover {
   position: relative;
   font-size: 18px;
   font-weight: 700;
-  color: var(--primary-color);
+  color: var(--Secondary-color);
 }
 
 .menu-section .section-title span::before {
   position: absolute;
   content: "";
   background-color: var(--dark);
-  height: 3px;
   width: 90px;
   bottom: -13px;
   left: 0;
@@ -447,14 +442,14 @@ a:hover {
   }
 
   80% {
-    transform: translate(-35px);
+    transform: translate(-25px);
   }
 }
 
 .menu-section .section-title h2 {
   font-size: 40px;
   font-weight: 600;
-  color: var(--primary-color);
+  color: var(--Secondary-color);
   font-family: "Aladin", sans-serif;
   margin-top: 30px;
 }
@@ -493,11 +488,13 @@ a:hover {
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--dark);
+  animation: swing linear infinite;
+  animation-duration: 10s;
 }
 
 .menu-section .menu-item h3 {
   font-size: 26px;
-  color: var(--primary-color);
+  color: var(--Secondary-color);
   font-weight: 600;
   margin-bottom: 30px;
   font-family: "Aladin", sans-serif;
@@ -513,4 +510,127 @@ a:hover {
   border-radius: 10px;
 }
 
+.menu-section .element-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
+.menu-section .element-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
 /* ===menu-section-end=== */
+
+/* ===why-choose-stction-start=== */
+
+.why-choose-section {
+  padding: 90px 0px;
+  background-color: #edc18e;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.why-choose-section .section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.why-choose-section .section-title span {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--Secondary-color);
+}
+
+.why-choose-section .section-title span::before {
+  position: absolute;
+  content: "";
+  background-color: var(--dark);
+  width: 90px;
+  bottom: -13px;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.why-choose-section .section-title span::after {
+  position: absolute;
+  content: "\f7b6";
+  font-family: "Font Awesome 5 Free";
+  bottom: -22px;
+  left: 25px;
+  border-radius: 2px;
+  animation: nudge3 5s linear infinite;
+}
+
+@keyframes nudge3 {
+  0%,
+  100% {
+    transform: translateX(90px);
+  }
+
+  80% {
+    transform: translate(-25px);
+  }
+}
+
+.why-choose-section .section-title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--Secondary-color);
+  font-family: "Aladin", sans-serif;
+  margin-top: 30px;
+}
+
+.why-choose-section .element-1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
+.why-choose-section .why-choose-item {
+  padding: 20px;
+  margin-bottom: 25px;
+  background-color: var(--Secondary-color);
+  border-radius: 10px;
+  height: 330px;
+}
+
+.why-choose-section .why-choose-item .icon {
+  margin-bottom: 25px;
+}
+
+.why-choose-section .why-choose-item h3 {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fcd6aa;
+  margin-bottom: 15px;
+}
+
+.why-choose-section .why-choose-item p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+}
+/* ===why-choose-stction-end=== */

@@ -191,7 +191,7 @@ a:hover {
   padding: 90px 0px;
   position: relative;
   z-index: 1;
-  background: url(../images/1669.jpg);
+  background: url(../images/hero-bg.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -616,7 +616,7 @@ a:hover {
   border-radius: 20px;
   height: 370px;
   transition: 0.5s ease-in-out;
-  background: url(../images/about-bg.jpg);
+  background: url(../images/tea-element.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -626,7 +626,7 @@ a:hover {
 .why-choose-section .why-choose-item::before {
   content: "";
   position: absolute;
-  background-color: #9c5734f1;
+  background-color: #9c5734e3;
   inset: 0;
   z-index: -1;
   border-radius: 20px;
@@ -635,6 +635,11 @@ a:hover {
 
 .why-choose-section .why-choose-item:hover::before {
   background-color: #9c5734;
+  transition: 0.5s ease-in-out;
+}
+
+.why-choose-section .why-choose-item:hover {
+  transform: translateY(-5px);
   transition: 0.5s ease-in-out;
 }
 
@@ -664,3 +669,483 @@ a:hover {
   color: var(--white);
 }
 /* ===why-choose-stction-end=== */
+
+/* ===locations-section-star=== */
+
+.locations-section {
+  background: url(../images/franchies.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  padding: 90px 0px;
+  text-align: center;
+  z-index: 1;
+}
+
+.locations-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-color: #875235e5;
+}
+
+.locations-section .section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.locations-section .section-title span {
+  position: relative;
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffc787;
+}
+
+.locations-section .section-title span::before {
+  position: absolute;
+  content: "";
+  background-color: var(--dark);
+  width: 90px;
+  bottom: -13px;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.locations-section .section-title span::after {
+  position: absolute;
+  content: "\f7b6";
+  font-family: "Font Awesome 5 Free";
+  bottom: -22px;
+  left: 25px;
+  border-radius: 2px;
+  animation: nudge3 5s linear infinite;
+}
+
+@keyframes nudge3 {
+  0%,
+  100% {
+    transform: translateX(90px);
+  }
+
+  80% {
+    transform: translate(-25px);
+  }
+}
+
+.locations-section .section-title h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #ffc787;
+  font-family: "Aladin", sans-serif;
+  margin-top: 30px;
+}
+
+.locations-section p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+.locations-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.location-card {
+  background-color: #f7f3e9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  text-align: left;
+}
+.location-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.location-card .details {
+  padding: 20px;
+}
+.location-card h3 {
+  font-size: 20px;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+.location-card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+.locations-section a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 30px;
+  background-color: var(--white);
+  color: var(--Secondary-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+.locations-section a:hover {
+  background-color: var(--Secondary-color);
+  color: var(--white);
+}
+
+.locations-section .element-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
+.locations-section .element-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
+/* ===locations-section-end=== */
+
+/* ===franchise-section-start=== */
+
+.franchise-section {
+  background-color: var(--white);
+  padding: 45px 0px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.franchise-section h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--Secondary-color);
+  font-family: "Aladin", sans-serif;
+  margin-bottom: 30px;
+}
+
+.franchise-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.franchise-section a {
+  display: inline-block;
+  padding: 12px 30px;
+  background-color: var(--Secondary-color);
+  color: var(--white);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+  border: 1px solid var(--Secondary-color);
+}
+.franchise-section a:hover {
+  background-color: var(--white);
+  color: var(--Secondary-color);
+  transition: 0.2s ease-in-out;
+}
+
+.franchise-section .element-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
+.franchise-section .element-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 130px;
+  width: 130px;
+  display: inline-block;
+  animation: swing linear infinite;
+  animation-duration: 10s;
+}
+
+/* ===franchise-section-end=== */
+
+/* ===footer-section-start=== */
+
+.footer {
+  padding-top: 45px;
+  background-color: var(--Secondary-color);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.footer .footer-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.footer .footer-item img {
+  width: 150px;
+  object-fit: cover;
+  background-color: var(--white);
+  border-radius: 5px;
+}
+
+.footer .footer-item h2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 0px 15px 0px;
+  margin: 0;
+  position: relative;
+}
+
+.footer .footer-item h3 {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 15px;
+  margin: 0;
+  position: relative;
+}
+
+.footer .footer-item h2::before {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  height: 4px;
+  width: 50px;
+  background-color: var(--Secondary-color);
+}
+
+.footer .footer-item p {
+  color: #cac8c8;
+  font-size: 16px;
+  padding: 20px 20px 0px 0px;
+  margin: 0;
+}
+
+.footer .footer-item .social-icon {
+  display: flex;
+  list-style: none;
+  margin-top: 15px;
+}
+
+.footer .footer-item .social-icon li {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  margin-right: 10px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  transition: 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.432);
+}
+
+.footer .footer-item .social-icon li:hover {
+  background-color: var(--primary-color);
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+.footer .footer-item .social-icon li:hover a {
+  color: var(--dark);
+  transition: 1s;
+}
+
+.footer .footer-item .social-icon li a {
+  color: var(--Secondary-color);
+  text-decoration: none;
+}
+
+.footer .footer-item .about-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-item .about-list li {
+  margin: 10px 0px;
+  font-size: 16px;
+  transition: 1s;
+}
+
+.footer-item .about-list li:hover {
+  transition: 1s;
+  padding-left: 5px;
+}
+
+.footer .footer-item .about-list li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer .footer-item .about-list li i {
+  color: var(--primary-color);
+  padding-right: 5px;
+}
+
+.footer .footer-item .service-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-item .service-links li {
+  margin: 15px 0px;
+  font-size: 16px;
+  color: var(--white);
+  transition: 1s;
+}
+
+.footer .footer-item .service-links li:hover {
+  padding-left: 5px;
+  transition: 1s;
+}
+
+.footer .footer-item .service-links li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer .footer-item .service-links li i {
+  color: var(--primary-color);
+  padding-right: 5px;
+}
+
+.footer .footer-item .contact-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer .footer-item .contact-list li {
+  margin: 15px 0px;
+  font-size: 16px;
+  color: var(--white);
+  transition: 1s;
+}
+
+.footer .footer-item .contact-list li:hover {
+  padding-left: 5px;
+  transition: 1s;
+}
+
+.footer .footer-item .contact-list li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer .footer-item .contact-list li i {
+  color: var(--primary-color);
+  padding-right: 5px;
+}
+
+.footer .footer-main {
+  border-top: 1px solid rgba(255, 255, 255, 0.164);
+  margin-top: 25px;
+}
+
+.footer .copy-right {
+  margin-top: 20px;
+}
+
+.footer .copy-right p {
+  color: var(--white);
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.footer .copy-right a {
+  color: var(--white);
+  font-size: 14px;
+  text-align: center;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer .top-button .top {
+  background-color: var(--primary-color);
+  height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 8px;
+  color: var(--dark);
+  right: 1em;
+  bottom: 0;
+  position: fixed;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  z-index: 9999;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+.footer .top-button .top {
+  animation: pulse infinite;
+  animation-duration: 1s;
+}
+
+.footer .top-button .top:hover {
+  background-color: var(--primary-color);
+  transition: 1s;
+}
+
+.footer .calling-button .call-btn {
+  background-color: var(--primary-color);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 8px;
+  color: var(--dark);
+  right: 1.1em;
+  bottom: 7.3rem;
+  position: fixed;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+  z-index: 9999;
+  margin-bottom: 10px;
+  transition: 5s;
+}
+
+.footer .whatsapp-button .whatsapp-chat {
+  background-color: #08bf3f;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  right: 1.1em;
+  bottom: 3.5rem;
+  position: fixed;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+  z-index: 9999;
+  margin-bottom: 10px;
+  transition: ease-in-out 1s;
+}
+
+/* ===footer-section-end=== */

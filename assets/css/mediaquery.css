@@ -63,3 +63,21 @@
     font-size: 30px;
   }
 }
+
+@media (max-width: 768px) {
+  .location-card {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .franchise-section h2 {
+    font-size: 28px;
+  }
+  .franchise-section p {
+    font-size: 16px;
+  }
+  .franchise-section a {
+    font-size: 16px;
+  }
+}

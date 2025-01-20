@@ -109,7 +109,7 @@ a:hover {
   line-height: 28px;
   border-radius: 5px;
   border: none;
-  padding: 5px 10px;
+  padding: 3px 10px;
 }
 
 .header-section .navbar-toggler i {
@@ -1090,7 +1090,7 @@ a:hover {
   width: 35px;
   border: none;
   border-radius: 8px;
-  color: var(--dark);
+  color: var(--Secondary-color);
   right: 1em;
   bottom: 0;
   position: fixed;
@@ -1118,7 +1118,7 @@ a:hover {
   width: 40px;
   border: none;
   border-radius: 8px;
-  color: var(--dark);
+  color: var(--Secondary-color);
   right: 1.1em;
   bottom: 7.3rem;
   position: fixed;

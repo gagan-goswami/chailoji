@@ -3,7 +3,7 @@
   /* --primary-color: #63392b;
   --Secondary-color: #f2b672; */
 
-  --primary-color: #f2b67294;
+  --primary-color: #ffffff;
   --Secondary-color: #63392bd2;
   --dark: #000000;
   --white: #fff;
@@ -103,13 +103,13 @@ a:hover {
 }
 
 .header-section .navbar-toggler {
-  background-color: var(--primary-color);
+  background-color: #7a3f1fef;
   color: var(--white);
   margin: 0px;
   line-height: 28px;
   border-radius: 5px;
   border: none;
-  padding: 2px 10px;
+  padding: 5px 10px;
 }
 
 .header-section .offcanvas-header {
@@ -196,7 +196,7 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #7a3f1fef;
+  background-color: #7a3f1fe5;
   z-index: -1;
 }
 
@@ -265,7 +265,7 @@ a:hover {
 
 .about-section {
   padding: 90px 0px;
-  background-color: #ebbb83e8;
+  background-color: var(--white);
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -396,7 +396,7 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #dfb381b6;
+  background-color: #7a3f1fe5;
   z-index: -1;
 }
 
@@ -409,7 +409,7 @@ a:hover {
   position: relative;
   font-size: 18px;
   font-weight: 700;
-  color: var(--Secondary-color);
+  color: #ffc788;
 }
 
 .menu-section .section-title span::before {
@@ -447,7 +447,7 @@ a:hover {
 .menu-section .section-title h2 {
   font-size: 40px;
   font-weight: 600;
-  color: var(--Secondary-color);
+  color: #ffc788;
   font-family: "Aladin", sans-serif;
   margin-top: 30px;
 }
@@ -491,11 +491,10 @@ a:hover {
 }
 
 .menu-section .menu-item h3 {
-  font-size: 26px;
+  font-size: 20px;
   color: var(--Secondary-color);
-  font-weight: 600;
-  margin-bottom: 30px;
-  font-family: "Aladin", sans-serif;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .menu-section .menu-item p {
@@ -536,7 +535,7 @@ a:hover {
 
 .why-choose-section {
   padding: 90px 0px;
-  background-color: #edc18e;
+  background-color: var(--white);
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -610,7 +609,6 @@ a:hover {
 .why-choose-section .why-choose-item {
   padding: 20px;
   margin-bottom: 25px;
-  background-color: var(--Secondary-color);
   border-radius: 20px;
   height: 370px;
   transition: 0.5s ease-in-out;
@@ -638,14 +636,15 @@ a:hover {
 
 .why-choose-section .why-choose-item .icon {
   margin-bottom: 25px;
-  background-color: var(--primary-color);
+  background-color: var(--Secondary-color);
   height: 100px;
   width: 100px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #808080;
+  filter: drop-shadow(0 0 0.75rem rgb(216, 119, 54));
+  border: 1px solid var(--white);
 }
 
 .why-choose-section .why-choose-item h3 {

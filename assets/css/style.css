@@ -185,22 +185,20 @@ a:hover {
 
 .hero-section {
   padding: 90px 0px;
-  /* background: url(../images/banner.jpg);
+  position: relative;
+  z-index: 1;
+  background: url(../images/1669.jpg);
   background-size: cover;
   background-position: center;
-  text-align: center;
-  position: relative;
-  z-index: 1; */
-  background-color: var(--Secondary-color);
 }
 
-/* .hero-section::before {
+.hero-section::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #070403b4;
+  background-color: #7a3f1fef;
   z-index: -1;
-} */
+}
 
 .hero-section .caption h1 {
   color: #ffc788;
@@ -613,12 +611,41 @@ a:hover {
   padding: 20px;
   margin-bottom: 25px;
   background-color: var(--Secondary-color);
-  border-radius: 10px;
-  height: 330px;
+  border-radius: 20px;
+  height: 370px;
+  transition: 0.5s ease-in-out;
+  background: url(../images/about-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.why-choose-section .why-choose-item::before {
+  content: "";
+  position: absolute;
+  background-color: #9c5734f1;
+  inset: 0;
+  z-index: -1;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.why-choose-section .why-choose-item:hover::before {
+  background-color: #9c5734;
+  transition: 0.5s ease-in-out;
 }
 
 .why-choose-section .why-choose-item .icon {
   margin-bottom: 25px;
+  background-color: var(--primary-color);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #808080;
 }
 
 .why-choose-section .why-choose-item h3 {

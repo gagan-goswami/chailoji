@@ -237,7 +237,7 @@ a:hover {
 }
 
 .hero-section .contact-query a:hover {
-  color: var(--white);
+  color: var(--Secondary-color);
   background-color: var(--primary-color);
   transition: 0.5s;
 }

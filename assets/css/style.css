@@ -870,8 +870,8 @@ a:hover {
   position: absolute;
   right: 0;
   top: 0;
-  height: 130px;
-  width: 130px;
+  height: 80px;
+  width: 80px;
   display: inline-block;
   animation: swing linear infinite;
   animation-duration: 10s;
@@ -881,8 +881,8 @@ a:hover {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 130px;
-  width: 130px;
+  height: 80px;
+  width: 80px;
   display: inline-block;
   animation: swing linear infinite;
   animation-duration: 10s;

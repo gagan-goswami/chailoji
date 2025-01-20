@@ -4,7 +4,7 @@
   --Secondary-color: #f2b672; */
 
   --primary-color: #ffffff;
-  --Secondary-color: #63392bd2;
+  --Secondary-color: #61392b;
   --dark: #000000;
   --white: #fff;
   --grey: #808080;
@@ -110,6 +110,10 @@ a:hover {
   border-radius: 5px;
   border: none;
   padding: 5px 10px;
+}
+
+.header-section .navbar-toggler i {
+  line-height: 30px;
 }
 
 .header-section .offcanvas-header {

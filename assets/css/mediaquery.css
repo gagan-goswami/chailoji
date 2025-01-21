@@ -72,8 +72,10 @@
   }
 
   .about-section .section-title h2,
-  .menu-section .section-title h2 {
-    font-size: 30px;
+  .menu-section .section-title h2,
+  .why-choose-section .section-title h2,
+  .locations-section .section-title h2 {
+    font-size: 28px;
   }
 }
 

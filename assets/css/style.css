@@ -40,10 +40,9 @@ a:hover {
 
 .header-section .menu-bar {
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: #e4f7d2;
   border-bottom: 1px solid rgba(255, 255, 255, 0.096);
   position: relative;
-  z-index: 99999;
 }
 
 .header-section .is-sticky-menu {
@@ -182,109 +181,12 @@ a:hover {
 /* === header-section-end === */
 
 /*=== hero-section-start ===*/
-
-/* .hero-section {
-  padding: 90px 0px;
-  position: relative;
-  z-index: 1;
-  background: url(../images/hero-bg.jpg);
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-}
-
-.hero-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: #7a3f1fc2;
-  z-index: -1;
-}
-
-#background-video {
-  height: 100vh;
-  width: 100vw;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;
-}
-
-.hero-section .caption {
-  padding: 0px 250px;
-}
-
-.hero-section .caption h1 {
-  color: #ffc788;
-  font-family: "Aladin", sans-serif;
-  font-weight: 700;
-  font-size: 50px;
-  word-spacing: 2px;
-}
-
-.hero-section .caption p {
-  color: var(--white);
-  margin: 15px 0px;
-}
-
-.hero-section .caption span {
-  color: #ffc788;
-  font-family: "Aladin", sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  letter-spacing: 3px;
-}
-
-.hero-section .contact-query {
-  margin-top: 40px;
-}
-
-.hero-section .contact-query a {
-  color: var(--Secondary-color);
-  text-decoration: none;
-  background-color: #ffc788;
-  padding: 12px 10px;
-  font-size: 16px;
-  font-weight: 600;
-  border-radius: 10px;
-  transition: 0.5s;
-}
-
-.hero-section .contact-query a:hover {
-  color: var(--Secondary-color);
-  background-color: var(--primary-color);
-  transition: 0.5s;
-}
-
-.hero-section .hero-image {
-  position: relative;
-  z-index: 1;
-  border-radius: 50%;
-  height: 400px;
-  width: 400px;
-  margin: 0 auto;
-}
-
-.hero-section .hero-image img {
-  height: 400px;
-  width: 400px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 5px solid var(--white);
-} */
-
 .hero-section {
   padding: 70px 0px;
-  position: relative;
   z-index: 1;
-  background: url(../images/hero-bg.jpg);
-  background-size: cover;
-  background-position: center;
   text-align: center;
   color: var(--white);
+  position: relative;
 }
 
 .hero-section::before {
@@ -296,13 +198,13 @@ a:hover {
 }
 
 #background-video {
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
-  position: fixed;
   top: 0;
   left: 0;
   z-index: -1;
+  position: absolute;
 }
 
 .hero-section .caption {
@@ -478,20 +380,12 @@ a:hover {
 
 .menu-section {
   padding: 90px 0px;
-  background: url(../images/menu-bg.jpg);
+  background-color: #dcf5c4be;
   background-size: cover;
   background-position: center;
   z-index: 1;
   position: relative;
   overflow: hidden;
-}
-
-.menu-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: #7a3f1fe5;
-  z-index: -1;
 }
 
 .menu-section .section-title {
@@ -502,7 +396,7 @@ a:hover {
 .menu-section .section-title span {
   font-size: 18px;
   font-weight: 700;
-  color: #ffc788;
+  color: var(--dark);
 }
 
 .menu-section .section-title span img {
@@ -513,7 +407,7 @@ a:hover {
 .menu-section .section-title h2 {
   font-size: 40px;
   font-weight: 600;
-  color: #ffc788;
+  color: var(--dark);
   font-family: "Aladin", sans-serif;
   margin-top: 20px;
 }
@@ -707,23 +601,11 @@ a:hover {
 /* ===locations-section-star=== */
 
 .locations-section {
-  background: url(../images/franchies.jpg);
-  background-size: cover;
-  background-position: center;
   position: relative;
   overflow: hidden;
-  color: #fff;
   padding: 90px 0px;
   text-align: center;
-  z-index: 1;
-}
-
-.locations-section::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  background-color: #875235e5;
+  background-color: #dcf5c4be;
 }
 
 .locations-section .section-title {
@@ -734,7 +616,7 @@ a:hover {
 .locations-section .section-title span {
   font-size: 18px;
   font-weight: 700;
-  color: #ffc787;
+  color: var(--dark);
 }
 
 .locations-section .section-title span img {
@@ -745,7 +627,7 @@ a:hover {
 .locations-section .section-title h2 {
   font-size: 40px;
   font-weight: 600;
-  color: #ffc787;
+  color: var(--dark);
   font-family: "Aladin", sans-serif;
   margin-top: 20px;
 }
@@ -777,6 +659,7 @@ a:hover {
 }
 .location-card .details {
   padding: 20px;
+  background-color: var(--white);
 }
 .location-card h3 {
   font-size: 18px;
@@ -793,7 +676,7 @@ a:hover {
 .locations-section a {
   display: inline-block;
   margin-top: 20px;
-  padding: 12px 30px;
+  padding: 12px 20px;
   background-color: var(--Secondary-color);
   color: var(--white);
   font-size: 18px;
@@ -841,8 +724,6 @@ a:hover {
   text-align: center;
   overflow: hidden;
   position: relative;
-  position: relative;
-  z-index: 9999999;
 }
 
 .franchise-section h2 {
@@ -860,7 +741,7 @@ a:hover {
 }
 .franchise-section a {
   display: inline-block;
-  padding: 12px 30px;
+  padding: 12px 20px;
   background-color: var(--Secondary-color);
   color: var(--white);
   font-size: 18px;
@@ -905,9 +786,8 @@ a:hover {
 
 .footer {
   padding-top: 45px;
-  background-color: var(--Secondary-color);
+  background-color: #dcf5c4be;
   position: relative;
-  z-index: 9999999;
 }
 
 .footer .footer-item {
@@ -922,7 +802,7 @@ a:hover {
 }
 
 .footer .footer-item h2 {
-  color: #fff;
+  color: var(--dark);
   font-size: 18px;
   font-weight: 600;
   padding: 15px 0px 15px 0px;
@@ -931,7 +811,7 @@ a:hover {
 }
 
 .footer .footer-item h3 {
-  color: var(--primary-color);
+  color: var(--dark);
   font-size: 18px;
   font-weight: 600;
   padding-top: 15px;
@@ -949,7 +829,7 @@ a:hover {
 }
 
 .footer .footer-item p {
-  color: var(--white);
+  color: var(--dark);
   font-size: 16px;
   padding: 20px 20px 0px 0px;
   margin: 0;
@@ -965,7 +845,7 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 5px;
-  background-color: var(--primary-color);
+  background-color: var(--Secondary-color);
   margin-right: 10px;
   text-align: center;
   font-size: 20px;
@@ -975,18 +855,18 @@ a:hover {
 }
 
 .footer .footer-item .social-icon li:hover {
-  background-color: var(--primary-color);
+  background-color: var(--dark);
   transition: 0.5s;
   transform: translateY(-5px);
 }
 
 .footer .footer-item .social-icon li:hover a {
-  color: var(--dark);
+  color: var(--white);
   transition: 1s;
 }
 
 .footer .footer-item .social-icon li a {
-  color: var(--Secondary-color);
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -1007,7 +887,7 @@ a:hover {
 }
 
 .footer .footer-item .about-list li a {
-  color: var(--white);
+  color: var(--dark);
   text-decoration: none;
 }
 
@@ -1024,7 +904,7 @@ a:hover {
 .footer .footer-item .service-links li {
   margin: 15px 0px;
   font-size: 16px;
-  color: var(--white);
+  color: var(--dark);
   transition: 1s;
 }
 
@@ -1034,7 +914,7 @@ a:hover {
 }
 
 .footer .footer-item .service-links li a {
-  color: var(--white);
+  color: var(--dark);
   text-decoration: none;
 }
 
@@ -1061,17 +941,17 @@ a:hover {
 }
 
 .footer .footer-item .contact-list li a {
-  color: var(--white);
+  color: var(--dark);
   text-decoration: none;
 }
 
 .footer .footer-item .contact-list li i {
-  color: var(--primary-color);
+  color: var(--dark);
   padding-right: 5px;
 }
 
 .footer .footer-main {
-  border-top: 1px solid rgba(255, 255, 255, 0.164);
+  border-top: 1px solid rgba(0, 0, 0, 0.342);
   margin-top: 25px;
 }
 
@@ -1080,14 +960,14 @@ a:hover {
 }
 
 .footer .copy-right p {
-  color: var(--white);
+  color: var(--dark);
   font-size: 14px;
   text-align: center;
   font-weight: 300;
 }
 
 .footer .copy-right a {
-  color: var(--white);
+  color: var(--dark);
   font-size: 14px;
   text-align: center;
   font-weight: 300;

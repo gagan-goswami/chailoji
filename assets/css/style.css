@@ -797,7 +797,6 @@ a:hover {
 .footer .footer-item img {
   width: 150px;
   object-fit: cover;
-  filter: drop-shadow(0 0.2rem 0.6rem rgba(255, 255, 255, 0.986));
   border-radius: 5px;
 }
 
@@ -829,7 +828,7 @@ a:hover {
 }
 
 .footer .footer-item p {
-  color: #cac8c8;
+  color: var(--white);
   font-size: 16px;
   padding: 20px 20px 0px 0px;
   margin: 0;

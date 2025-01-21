@@ -282,50 +282,21 @@ a:hover {
 }
 
 .about-section .section-title span {
-  position: relative;
   font-size: 18px;
   font-weight: 700;
   color: var(--Secondary-color);
 }
 
-.about-section .section-title span::before {
-  position: absolute;
-  content: "";
-  background-color: var(--dark);
-  height: 0px;
-  width: 82px;
-  bottom: -13px;
-  left: 0;
-  right: 0;
-  border-radius: 10px;
-}
-
-.about-section .section-title span::after {
-  position: absolute;
-  content: "\f7b6";
-  font-family: "Font Awesome 5 Free";
-  bottom: -22px;
-  left: 25px;
-  border-radius: 2px;
-  animation: nudge1 5s linear infinite;
-}
-
-@keyframes nudge1 {
-  0%,
-  100% {
-    transform: translateX(40px);
-  }
-
-  80% {
-    transform: translate(-35px);
-  }
+.about-section .section-title span img {
+  height: 25px;
+  margin-bottom: 10px;
 }
 
 .about-section .section-title h2 {
   font-size: 40px;
   font-weight: 600;
   color: var(--Secondary-color);
-  margin-top: 30px;
+  margin-top: 20px;
   font-family: "Aladin", sans-serif;
 }
 
@@ -410,42 +381,14 @@ a:hover {
 }
 
 .menu-section .section-title span {
-  position: relative;
   font-size: 18px;
   font-weight: 700;
   color: #ffc788;
 }
 
-.menu-section .section-title span::before {
-  position: absolute;
-  content: "";
-  background-color: var(--dark);
-  width: 90px;
-  bottom: -13px;
-  left: 0;
-  right: 0;
-  border-radius: 10px;
-}
-
-.menu-section .section-title span::after {
-  position: absolute;
-  content: "\f7b6";
-  font-family: "Font Awesome 5 Free";
-  bottom: -22px;
-  left: 25px;
-  border-radius: 2px;
-  animation: nudge2 5s linear infinite;
-}
-
-@keyframes nudge2 {
-  0%,
-  100% {
-    transform: translateX(45px);
-  }
-
-  80% {
-    transform: translate(-25px);
-  }
+.menu-section .section-title span img {
+  height: 25px;
+  margin-bottom: 10px;
 }
 
 .menu-section .section-title h2 {
@@ -453,7 +396,7 @@ a:hover {
   font-weight: 600;
   color: #ffc788;
   font-family: "Aladin", sans-serif;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .menu-section .menu-item {
@@ -553,42 +496,14 @@ a:hover {
 }
 
 .why-choose-section .section-title span {
-  position: relative;
   font-size: 18px;
   font-weight: 700;
   color: var(--Secondary-color);
 }
 
-.why-choose-section .section-title span::before {
-  position: absolute;
-  content: "";
-  background-color: var(--dark);
-  width: 90px;
-  bottom: -13px;
-  left: 0;
-  right: 0;
-  border-radius: 10px;
-}
-
-.why-choose-section .section-title span::after {
-  position: absolute;
-  content: "\f7b6";
-  font-family: "Font Awesome 5 Free";
-  bottom: -22px;
-  left: 25px;
-  border-radius: 2px;
-  animation: nudge3 5s linear infinite;
-}
-
-@keyframes nudge3 {
-  0%,
-  100% {
-    transform: translateX(90px);
-  }
-
-  80% {
-    transform: translate(-25px);
-  }
+.why-choose-section .section-title span img {
+  height: 25px;
+  margin-bottom: 10px;
 }
 
 .why-choose-section .section-title h2 {
@@ -596,7 +511,7 @@ a:hover {
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Aladin", sans-serif;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .why-choose-section .element-1 {
@@ -693,47 +608,19 @@ a:hover {
 }
 
 .locations-section .section-title {
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   text-align: center;
 }
 
 .locations-section .section-title span {
-  position: relative;
   font-size: 18px;
   font-weight: 700;
   color: #ffc787;
 }
 
-.locations-section .section-title span::before {
-  position: absolute;
-  content: "";
-  background-color: var(--dark);
-  width: 90px;
-  bottom: -13px;
-  left: 0;
-  right: 0;
-  border-radius: 10px;
-}
-
-.locations-section .section-title span::after {
-  position: absolute;
-  content: "\f7b6";
-  font-family: "Font Awesome 5 Free";
-  bottom: -22px;
-  left: 25px;
-  border-radius: 2px;
-  animation: nudge3 5s linear infinite;
-}
-
-@keyframes nudge3 {
-  0%,
-  100% {
-    transform: translateX(90px);
-  }
-
-  80% {
-    transform: translate(-25px);
-  }
+.locations-section .section-title span img {
+  height: 25px;
+  margin-bottom: 10px;
 }
 
 .locations-section .section-title h2 {
@@ -741,7 +628,7 @@ a:hover {
   font-weight: 600;
   color: #ffc787;
   font-family: "Aladin", sans-serif;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .locations-section p {
@@ -773,31 +660,34 @@ a:hover {
   padding: 20px;
 }
 .location-card h3 {
-  font-size: 20px;
+  font-size: 18px;
   color: #e67e22;
+  font-weight: 700;
   margin-bottom: 10px;
 }
 .location-card p {
-  font-size: 16px;
+  font-size: 14px;
   margin-bottom: 5px;
+  font-weight: 700;
   color: #555;
 }
 .locations-section a {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 30px;
-  background-color: var(--white);
-  color: var(--Secondary-color);
+  background-color: var(--Secondary-color);
+  color: var(--white);
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s;
+  border: 1px solid var(--Secondary-color);
 }
 .locations-section a:hover {
-  background-color: var(--Secondary-color);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--Secondary-color);
 }
 
 .locations-section .element-1 {
@@ -907,7 +797,7 @@ a:hover {
 .footer .footer-item img {
   width: 150px;
   object-fit: cover;
-  background-color: var(--white);
+  filter: drop-shadow(0 0.2rem 0.6rem rgba(255, 255, 255, 0.986));
   border-radius: 5px;
 }
 
@@ -1100,6 +990,7 @@ a:hover {
   z-index: 9999;
   margin-bottom: 10px;
   transition: 1s;
+  border: 1px solid var(--Secondary-color);
 }
 
 .footer .top-button .top {
@@ -1128,6 +1019,7 @@ a:hover {
   z-index: 9999;
   margin-bottom: 10px;
   transition: 5s;
+  border: 1px solid var(--Secondary-color);
 }
 
 .footer .whatsapp-button .whatsapp-chat {

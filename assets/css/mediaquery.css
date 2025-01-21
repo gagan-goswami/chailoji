@@ -6,7 +6,7 @@
 
   .header-section .offcanvas-body {
     background-color: var(--white);
-    padding: 0;
+    padding: 10px;
   }
 
   .hero-section .slide .content h2,
@@ -20,7 +20,7 @@
   }
 
   .hero-section .caption {
-    padding: 0px 20px;
+    padding: 0px 0px;
   }
 
   .hero-section .hero-image {

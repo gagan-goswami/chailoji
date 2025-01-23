@@ -143,36 +143,6 @@ menuSticky();
 
 // AOS.init();
 
-// JavaScript
-function playVideo() {
-  // JavaScript
-  class VideoModalManager {
-    constructor() {
-      this.init();
-    }
-    init() {
-      $(".video-btn").click(function () {
-        const $videoSrc = $(this).data("src");
-        $(".modal").data("videoSrc", $videoSrc);
-      });
-      $(".modal").on("shown.bs.modal", function (e) {
-        const $videoSrc = $(this).data("videoSrc");
-        console.log("Video Source in modal:", $videoSrc); // Debugging
-        $(this)
-          .find("#video")
-          .attr("src", $videoSrc + "?autoplay=1&modestbranding=1&showinfo=0");
-      });
-      $(".modal").on("hide.bs.modal", function (e) {
-        $(this).find("#video").attr("src", "");
-      });
-    }
-  }
-  // Initialize the VideoModalManager
-  const videoModalManager = new VideoModalManager();
-}
-
-playVideo();
-
 // counter
 
 $(document).ready(function () {

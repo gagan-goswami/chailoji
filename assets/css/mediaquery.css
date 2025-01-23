@@ -39,6 +39,10 @@
     display: none;
   }
 
+  .menu-list ul li {
+    font-size: 14px;
+  }
+
   .introduction-section .section-title .subtitle,
   .about-section .section-title .subtitle,
   .core-value-section .section-title .subtitle,

@@ -9,6 +9,7 @@
   --white: #fff;
   --grey: #808080;
   --bg-color: #055bac0c;
+  --bg-color-second: #fab86173;
 }
 
 /* ====== Font ====== */
@@ -40,7 +41,7 @@ a:hover {
 
 .header-section .menu-bar {
   width: 100%;
-  background-color: #e4f7d2;
+  background-color: var(--bg-color-second);
   border-bottom: 1px solid rgba(255, 255, 255, 0.096);
   position: relative;
 }
@@ -67,19 +68,23 @@ a:hover {
   font-weight: 500;
   font-size: 16px;
   position: relative;
+  transition: 0.5s ease-in;
 }
 
 .header-section .nav-link::after {
-  width: 100%;
+  width: 0;
+  height: 2px;
+  background-color: var(--dark);
+  content: "";
+  position: absolute;
+  bottom: 0;
   left: 0;
-  transform: scaleX(1);
-  transform-origin: right;
-  transition: transform 0.4s;
+  transition: 0.5s ease-in;
 }
 
 .header-section .nav-link:hover:after {
-  transform: scaleX(1);
-  transform-origin: left;
+  width: 100%;
+  transition: 0.3s ease-in;
 }
 
 .header-section .navbar-nav .nav-link.active {
@@ -291,8 +296,6 @@ a:hover {
 .about-section {
   padding: 90px 0px;
   background-color: var(--white);
-  background-size: cover;
-  background-position: center;
   z-index: 1;
   position: relative;
   overflow: hidden;
@@ -380,7 +383,7 @@ a:hover {
 
 .menu-section {
   padding: 90px 0px;
-  background-color: #dcf5c4be;
+  background-color: var(--white);
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -605,7 +608,7 @@ a:hover {
   overflow: hidden;
   padding: 90px 0px;
   text-align: center;
-  background-color: #dcf5c4be;
+  background-color: var(--white);
 }
 
 .locations-section .section-title {
@@ -786,7 +789,7 @@ a:hover {
 
 .footer {
   padding-top: 45px;
-  background-color: #dcf5c4be;
+  background-color: var(--bg-color-second);
   position: relative;
 }
 
@@ -1111,6 +1114,8 @@ a:hover {
 }
 /*===breadcrumb-section-end===*/
 
+/*===complete-menu-section-start===*/
+
 .complete-menu {
   padding: 90px 0px;
   background-color: #dcf5c4be;
@@ -1195,7 +1200,7 @@ a:hover {
   padding: 0;
 }
 
-.menu-list ul li {
+.complete-menu .menu-list ul li {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
@@ -1206,10 +1211,16 @@ a:hover {
   position: relative;
 }
 
-.menu-list ul li::before {
+.complete-menu .menu-list ul li::before {
   content: "";
   position: absolute;
   width: 100%;
   bottom: -5px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.589);
+}
+
+/*===complete-menu-section-end===*/
+
+.locations-section {
+  padding: 90px 0px;
 }

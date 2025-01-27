@@ -213,17 +213,16 @@ a:hover {
 }
 
 .hero-section .caption {
-  padding: 0px 250px;
+  padding: 0px 200px;
   position: relative;
   z-index: 1;
 }
 
 .hero-section .caption h1 {
   color: #ffc788;
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   font-weight: 700;
-  font-size: 50px;
-  word-spacing: 2px;
+  font-size: 60px;
 }
 
 .hero-section .caption p {
@@ -233,7 +232,7 @@ a:hover {
 
 .hero-section .caption span {
   color: #ffc788;
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   font-weight: 700;
   font-size: 30px;
   letter-spacing: 3px;
@@ -321,14 +320,14 @@ a:hover {
   font-weight: 600;
   color: var(--Secondary-color);
   margin-top: 20px;
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
 }
 
 .about-section .section-title h3 {
   font-size: 30px;
   font-weight: 600;
   color: var(--Secondary-color);
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   margin-bottom: 30px;
 }
 
@@ -388,7 +387,7 @@ a:hover {
   font-size: 40px;
   font-weight: 600;
   color: var(--Secondary-color);
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   margin-top: 20px;
 }
 
@@ -481,7 +480,7 @@ a:hover {
   font-size: 40px;
   font-weight: 600;
   color: var(--Secondary-color);
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   margin-top: 20px;
 }
 
@@ -544,7 +543,7 @@ a:hover {
 }
 
 .locations-section .section-title {
-  margin-bottom: 45px;
+  margin: 0px 200px 45px 200px;
   text-align: center;
 }
 
@@ -563,7 +562,7 @@ a:hover {
   font-size: 40px;
   font-weight: 600;
   color: var(--Secondary-color);
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   margin-top: 20px;
 }
 
@@ -643,7 +642,7 @@ a:hover {
   font-size: 40px;
   font-weight: 600;
   color: var(--Secondary-color);
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   margin-bottom: 30px;
 }
 
@@ -665,6 +664,7 @@ a:hover {
   transition: background-color 0.3s, color 0.3s;
   border: 1px solid var(--Secondary-color);
 }
+
 .franchise-section a:hover {
   background-color: var(--white);
   color: var(--Secondary-color);
@@ -1010,7 +1010,7 @@ a:hover {
 }
 
 .complete-menu .section-title {
-  margin-bottom: 50px;
+  margin: 0px 200px 45px 200px;
   text-align: center;
 }
 
@@ -1029,7 +1029,7 @@ a:hover {
   font-size: 40px;
   font-weight: 600;
   color: var(--Secondary-color);
-  font-family: "Aladin", sans-serif;
+  font-family: "Oregon LDO", sans-serif;
   margin-top: 20px;
 }
 

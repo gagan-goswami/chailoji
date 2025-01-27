@@ -429,7 +429,7 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #f2b672bd;
+  background-color: #fcdeb8d4;
   z-index: -1;
   border-radius: 20px;
 }
@@ -547,21 +547,9 @@ a:hover {
   border-radius: 20px;
   height: 370px;
   transition: 0.5s ease-in-out;
-  background: url(../images/tea-element.png);
-  background-size: cover;
-  background-position: center;
+  background-color: #fcd3a4;
   position: relative;
   z-index: 1;
-}
-
-.why-choose-section .why-choose-item::before {
-  content: "";
-  position: absolute;
-  background-color: #9c5734e3;
-  inset: 0;
-  z-index: -1;
-  border-radius: 20px;
-  transition: 0.5s ease-in-out;
 }
 
 .why-choose-section .why-choose-item:hover::before {
@@ -590,14 +578,14 @@ a:hover {
 .why-choose-section .why-choose-item h3 {
   font-size: 20px;
   font-weight: 800;
-  color: #fcd6aa;
+  color: #9c5734;
   margin-bottom: 15px;
 }
 
 .why-choose-section .why-choose-item p {
   font-size: 16px;
   font-weight: 400;
-  color: var(--white);
+  color: var(--dark);
 }
 /* ===why-choose-stction-end=== */
 

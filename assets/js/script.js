@@ -128,18 +128,18 @@ function topFunction() {
 
 // sticky menu bar //
 
-function menuSticky() {
-  if ($(".is-sticky-on").length > 0) {
-    $(window).on("scroll", function () {
-      if ($(window).scrollTop() >= 250) {
-        $(".is-sticky-on").addClass("is-sticky-menu");
-      } else {
-        $(".is-sticky-on").removeClass("is-sticky-menu");
-      }
-    });
-  }
-}
-menuSticky();
+// function menuSticky() {
+//   if ($(".is-sticky-on").length > 0) {
+//     $(window).on("scroll", function () {
+//       if ($(window).scrollTop() >= 250) {
+//         $(".is-sticky-on").addClass("is-sticky-menu");
+//       } else {
+//         $(".is-sticky-on").removeClass("is-sticky-menu");
+//       }
+//     });
+//   }
+// }
+// menuSticky();
 
 // AOS.init();
 

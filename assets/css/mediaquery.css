@@ -26,6 +26,12 @@
   .hero-section .hero-image {
     display: none;
   }
+
+  .locations-section .section-title,
+  .complete-menu .section-title {
+    margin: 0px 0px 45px 0px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 600px) {
@@ -55,19 +61,6 @@
   .gallery-section .section-title .subtitle {
     font-size: 18px;
   }
-
-  .about-section .element-1,
-  .about-section .element-2,
-  .menu-section .element-1,
-  .menu-section .element-2,
-  .why-choose-section .element-1,
-  .locations-section .element-1,
-  .locations-section .element-2,
-  .franchise-section .element-1,
-  .franchise-section .element-2 {
-    height: 70px;
-    width: 70px;
-  }
 }
 
 @media (max-width: 425px) {
@@ -78,8 +71,9 @@
   .about-section .section-title h2,
   .menu-section .section-title h2,
   .why-choose-section .section-title h2,
-  .locations-section .section-title h2 {
-    font-size: 28px;
+  .locations-section .section-title h2,
+  .complete-menu .section-title h2 {
+    font-size: 26px;
   }
 }
 

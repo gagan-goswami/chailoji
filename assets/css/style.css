@@ -1022,15 +1022,17 @@ a:hover {
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   display: flex;
   flex-direction: column;
-  height: 320px;
+  height: 400px;
   position: relative;
   overflow: hidden;
   transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .complete-menu .menu-box:hover {
   height: 100%;
   transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .complete-menu .menu-box .flex-grow-1 {
@@ -1038,9 +1040,9 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   flex-grow: 1;
-  transform: translateY(-100%);
+  transform: translateY(-0%);
   transition: 0.5s ease-in-out;
-  opacity: 0;
+  opacity: 1;
 }
 
 .complete-menu .menu-list {
@@ -1054,16 +1056,17 @@ a:hover {
 }
 
 .complete-menu .menu-box img {
-  height: 300px;
+  height: 320px;
   width: 100%;
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 25px;
   transition: 0.5s;
+  position: relative;
 }
 
 .complete-menu .menu-box:hover img {
-  transform: scale(0.9);
+  transform: scale(1.02);
   transition: 0.5s;
 }
 

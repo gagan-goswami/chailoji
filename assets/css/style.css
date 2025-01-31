@@ -991,7 +991,7 @@ a:hover {
 
 .complete-menu {
   padding: 90px 0px;
-  background-color: #dcf5c4be;
+  background-color: var(--white);
 }
 
 .complete-menu .section-title {

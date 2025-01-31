@@ -552,24 +552,28 @@ a:hover {
   margin-bottom: 40px;
   color: #555;
 }
+
 .locations-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
 }
+
 .location-card {
   background-color: #f7f3e9;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
+  max-width: 500px;
+  width: 300px;
   text-align: left;
 }
 .location-card img {
   width: 100%;
   height: 200px;
+  object-fit: cover;
 }
 
 .location-card .details {

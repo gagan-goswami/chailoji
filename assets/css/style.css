@@ -887,7 +887,7 @@ a:hover {
   border-radius: 8px;
   color: var(--Secondary-color);
   right: 1.1em;
-  bottom: 7.3rem;
+  bottom: 11.5rem;
   position: fixed;
   font-size: 20px;
   line-height: 42px;
@@ -906,7 +906,7 @@ a:hover {
   border-radius: 8px;
   color: white;
   right: 1.1em;
-  bottom: 3.5rem;
+  bottom: 7.5rem;
   position: fixed;
   font-size: 20px;
   line-height: 42px;
@@ -914,6 +914,39 @@ a:hover {
   z-index: 9999;
   margin-bottom: 10px;
   transition: ease-in-out 1s;
+}
+
+.footer .instagram-button .instagram-chat {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  right: 1.1em;
+  bottom: 3.5rem;
+  position: fixed;
+  font-size: 20px;
+  line-height: 42px;
+  text-align: center;
+  z-index: 9999;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.footer .instagram-button .instagram-chat:hover {
+  transform: scale(1.1);
 }
 
 /* ===footer-section-end=== */

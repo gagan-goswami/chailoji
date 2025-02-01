@@ -853,7 +853,7 @@ a:hover {
 .footer .top-button .top {
   background-color: var(--primary-color);
   height: 35px;
-  width: 35px;
+  width: 37px;
   border: none;
   border-radius: 8px;
   color: var(--Secondary-color);
@@ -867,16 +867,6 @@ a:hover {
   margin-bottom: 10px;
   transition: 1s;
   border: 1px solid var(--Secondary-color);
-}
-
-.footer .top-button .top {
-  animation: pulse infinite;
-  animation-duration: 1s;
-}
-
-.footer .top-button .top:hover {
-  background-color: var(--primary-color);
-  transition: 1s;
 }
 
 .footer .calling-button .call-btn {

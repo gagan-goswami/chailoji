@@ -165,3 +165,21 @@ $(document).ready(function () {
 });
 
 // titl animation //
+
+function sendToWhatsApp() {
+  let name = document.getElementById("name").value;
+  let phone = document.getElementById("phone").value;
+  let email = document.getElementById("email").value;
+  let location = document.getElementById("location").value;
+  let message = document.getElementById("message").value;
+
+  if (!name || !phone || !email || !location || !message) {
+    alert("Please fill all fields");
+    return;
+  }
+
+  let whatsappMessage = `Chai Lo Ji Franchise Inquiry%0AName: ${name}%0APhone: ${phone}%0AEmail: ${email}%0ALocation: ${location}%0AMessage: ${message}`;
+  let whatsappURL = `https://wa.me/919716038638?text=${whatsappMessage}`;
+
+  window.open(whatsappURL, "_blank");
+}

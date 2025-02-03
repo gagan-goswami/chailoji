@@ -75,7 +75,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <a href="" class="conatact-btn" aria-label="Contact us">
+                        <a href="https://wa.me/919716038638" class="conatact-btn" aria-label="Contact us">
                             <i class="fab fa-whatsapp"></i> Whatsapp
                         </a>
 
@@ -115,27 +115,51 @@
     <!-- breadcrumb-section-end -->
 
 
-    <!-- franchise-section-start -->
+    <!-- locations-section-start-->
 
-    <section class="franchise-section">
+    <section class="cafe-Franchise">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="franchise-box">
-                        <h2>Become a Part of the Chai Lo Ji Family</h2>
-                        <p>Dreaming of running your own chai café? Join the Chai Lo Ji family and share the joy of chai
-                            with
-                            your
-                            community.
-                            We provide all the support and guidance you need to build your own successful chai café.</p>
-                        <a href="#" onclick="alert('Learn more details coming soon!')">Learn More About Franchising</a>
+                <div class="col-md-6">
+                    <div class="image-box">
+                        <img src="./assets/images/cafe-images-2.jpeg" alt="franchise-image" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-container">
+                        <h2>Franchise Inquiry</h2>
+                        <form id="franchiseForm">
+                            <div class="mb-3">
+                                <label class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Location</label>
+                                <input type="text" class="form-control" id="location" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="3" required></textarea>
+                            </div>
+                            <button type="button" class="btn  w-100" onclick="sendToWhatsApp()">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- franchise-section-end -->
+
+    <!-- locations-section-end-->
+
 
     <!-- footer-section-start -->
 

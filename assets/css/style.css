@@ -202,7 +202,7 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.863);
+  background-color: rgba(0, 0, 0, 0.815);
   z-index: -1;
 }
 
@@ -285,6 +285,7 @@ a:hover {
 .hero-section .counter .counter-main {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-section .counter .counter-main .count-box-1,
@@ -294,7 +295,7 @@ a:hover {
 
 .hero-section .counter .counter-main .count-box-1 img,
 .hero-section .counter .counter-main .count-box-2 img {
-  height: 100px;
+  height: 120px;
   width: 100%;
   margin: 0px 10px;
 }

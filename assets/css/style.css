@@ -270,16 +270,17 @@ a:hover {
 }
 
 .hero-section .counter {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .hero-section .counter h2 {
   color: #ffc788;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: "Oregon LDO", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 45px;
   letter-spacing: 3px;
+  text-shadow: rgba(255, 184, 126, 0.671) 1px 0 5px;
 }
 
 .hero-section .counter .counter-main {

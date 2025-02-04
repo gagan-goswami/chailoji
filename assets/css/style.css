@@ -66,7 +66,7 @@ a:hover {
   text-transform: capitalize;
   color: var(--dark);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   position: relative;
   transition: 0.5s ease-in;
 }
@@ -133,7 +133,7 @@ a:hover {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-right: 10px;
-  font-size: 16px;
+  font-size: 15px;
   padding: 3px 8px;
 }
 
@@ -142,7 +142,7 @@ a:hover {
   text-decoration: none;
   background-color: #21cf89;
   padding: 12px 10px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   border-radius: 10px;
   margin: 0px 10px;
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .header-section .conatact-btn i {
-  font-size: 24px;
+  font-size: 23px;
   margin-right: 5px;
 }
 
@@ -160,7 +160,7 @@ a:hover {
   text-decoration: none;
   background-color: var(--Secondary-color);
   padding: 12px 15px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   border-radius: 10px;
   margin: 0px 10px;
@@ -174,7 +174,7 @@ a:hover {
   border-radius: 5px;
   border: none;
   border: 1px solid white;
-  font-size: 16px;
+  font-size: 15px;
   padding: 6px 8px;
   background-color: var(--dark);
 }
@@ -216,7 +216,7 @@ a:hover {
   color: #ffc788;
   font-family: "Oregon LDO", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 59px;
 }
 
 .hero-section .caption p {
@@ -228,7 +228,7 @@ a:hover {
   color: #ffc788;
   font-family: "Oregon LDO", sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 29px;
   letter-spacing: 3px;
 }
 
@@ -241,7 +241,7 @@ a:hover {
   text-decoration: none;
   background-color: #ffc788;
   padding: 12px 10px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   border-radius: 10px;
   transition: 0.5s ease;
@@ -278,7 +278,7 @@ a:hover {
   margin-bottom: 10px;
   font-family: "Oregon LDO", sans-serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 44px;
   letter-spacing: 3px;
   text-shadow: rgba(255, 184, 126, 0.671) 1px 0 5px;
 }
@@ -318,7 +318,7 @@ a:hover {
 }
 
 .about-section .section-title span {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--Secondary-color);
 }
@@ -329,7 +329,7 @@ a:hover {
 }
 
 .about-section .section-title h2 {
-  font-size: 40px;
+  font-size: 39px;
   font-weight: 600;
   color: var(--Secondary-color);
   margin-top: 20px;
@@ -337,7 +337,7 @@ a:hover {
 }
 
 .about-section .section-title h3 {
-  font-size: 30px;
+  font-size: 29px;
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Oregon LDO", sans-serif;
@@ -345,7 +345,7 @@ a:hover {
 }
 
 .about-section .about-content p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   color: var(--dark);
 }
@@ -389,7 +389,7 @@ a:hover {
 }
 
 .menu-section .section-title span {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--Secondary-color);
 }
@@ -400,7 +400,7 @@ a:hover {
 }
 
 .menu-section .section-title h2 {
-  font-size: 40px;
+  font-size: 39px;
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Oregon LDO", sans-serif;
@@ -431,7 +431,7 @@ a:hover {
 }
 
 .menu-section .menu-item h3 {
-  font-size: 20px;
+  font-size: 19px;
   color: var(--Secondary-color);
   margin-top: 20px;
   font-weight: 700;
@@ -457,7 +457,7 @@ a:hover {
 }
 
 .why-choose-section .section-title span {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--Secondary-color);
 }
@@ -468,7 +468,7 @@ a:hover {
 }
 
 .why-choose-section .section-title h2 {
-  font-size: 40px;
+  font-size: 39px;
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Oregon LDO", sans-serif;
@@ -510,14 +510,14 @@ a:hover {
 }
 
 .why-choose-section .why-choose-item h3 {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 800;
   color: #9c5734;
   margin-bottom: 15px;
 }
 
 .why-choose-section .why-choose-item p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--dark);
 }
@@ -539,7 +539,7 @@ a:hover {
 }
 
 .locations-section .section-title span {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--Secondary-color);
 }
@@ -550,7 +550,7 @@ a:hover {
 }
 
 .locations-section .section-title h2 {
-  font-size: 40px;
+  font-size: 39px;
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Oregon LDO", sans-serif;
@@ -558,7 +558,7 @@ a:hover {
 }
 
 .locations-section p {
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 40px;
   color: #555;
 }
@@ -598,7 +598,7 @@ a:hover {
   background-color: var(--white);
 }
 .location-card h3 {
-  font-size: 18px;
+  font-size: 17px;
   color: #e67e22;
   font-weight: 700;
   margin-bottom: 10px;
@@ -615,7 +615,7 @@ a:hover {
   padding: 8px 10px;
   color: var(--Secondary-color);
   background-color: var(--white);
-  font-size: 12px;
+  font-size: 11px;
   text-decoration: none;
   line-height: 15px;
 }
@@ -626,7 +626,7 @@ a:hover {
   padding: 12px 20px;
   background-color: var(--Secondary-color);
   color: var(--white);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 30px;
@@ -655,14 +655,14 @@ a:hover {
 }
 
 .cafe-Franchise .form-container h2 {
-  font-size: 30px;
+  font-size: 29px;
   color: var(--Secondary-color);
   margin-bottom: 20px;
   font-weight: 600;
 }
 
 .cafe-Franchise .form-label {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--dark);
   font-weight: 600;
 }
@@ -690,7 +690,7 @@ a:hover {
 }
 
 .franchise-section h2 {
-  font-size: 40px;
+  font-size: 39px;
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Oregon LDO", sans-serif;
@@ -698,7 +698,7 @@ a:hover {
 }
 
 .franchise-section p {
-  font-size: 18px;
+  font-size: 17px;
   margin-bottom: 30px;
   line-height: 1.6;
 }
@@ -707,7 +707,7 @@ a:hover {
   padding: 12px 20px;
   background-color: var(--Secondary-color);
   color: var(--white);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 30px;
@@ -745,7 +745,7 @@ a:hover {
 
 .footer .footer-item h2 {
   color: var(--dark);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   padding: 15px 0px 15px 0px;
   margin: 0;
@@ -754,7 +754,7 @@ a:hover {
 
 .footer .footer-item h3 {
   color: var(--dark);
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   padding-top: 15px;
   margin: 0;
@@ -772,7 +772,7 @@ a:hover {
 
 .footer .footer-item p {
   color: var(--dark);
-  font-size: 16px;
+  font-size: 15px;
   padding: 20px 20px 0px 0px;
   margin: 0;
 }
@@ -790,7 +790,7 @@ a:hover {
   background-color: var(--Secondary-color);
   margin-right: 10px;
   text-align: center;
-  font-size: 20px;
+  font-size: 19px;
   line-height: 40px;
   transition: 0.5s;
   border: 1px solid rgba(255, 255, 255, 0.432);
@@ -819,7 +819,7 @@ a:hover {
 
 .footer .footer-item .about-list li {
   margin: 10px 0px;
-  font-size: 16px;
+  font-size: 15px;
   transition: 1s;
 }
 
@@ -845,7 +845,7 @@ a:hover {
 
 .footer .footer-item .service-links li {
   margin: 15px 0px;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--dark);
   transition: 1s;
 }
@@ -872,7 +872,7 @@ a:hover {
 
 .footer .footer-item .contact-list li {
   margin: 15px 0px;
-  font-size: 16px;
+  font-size: 15px;
   color: var(--white);
   transition: 1s;
 }
@@ -1030,7 +1030,7 @@ a:hover {
 }
 
 .breadcrumb-section .breadcrumb-heading h2 {
-  font-size: 40px;
+  font-size: 39px;
   color: var(--white);
   font-weight: 600;
   z-index: 1;
@@ -1045,7 +1045,7 @@ a:hover {
 }
 
 .breadcrumb-section .breadcrumb li {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--white);
   font-weight: 500;
   z-index: 1;
@@ -1053,7 +1053,7 @@ a:hover {
 }
 
 .breadcrumb-section .breadcrumb li a {
-  font-size: 16px;
+  font-size: 15px;
   color: var(--white);
   font-weight: 500;
   text-decoration: none;
@@ -1089,7 +1089,7 @@ a:hover {
 }
 
 .complete-menu .section-title span {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   color: var(--Secondary-color);
 }
@@ -1100,7 +1100,7 @@ a:hover {
 }
 
 .complete-menu .section-title h2 {
-  font-size: 40px;
+  font-size: 39px;
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Oregon LDO", sans-serif;
@@ -1164,7 +1164,7 @@ a:hover {
 }
 
 .complete-menu .menu-box h3 {
-  font-size: 20px;
+  font-size: 19px;
   color: var(--Secondary-color);
   font-weight: 900;
   margin-bottom: 20px;
@@ -1188,7 +1188,7 @@ a:hover {
   margin-bottom: 10px;
   color: var(--dark);
   align-items: center;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   position: relative;
 }
@@ -1222,14 +1222,14 @@ a:hover {
 }
 
 .contact-info .section-title span {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--Secondary-color);
   position: relative;
 }
 
 .contact-info .section-title h2 {
-  font-size: 40px;
+  font-size: 39px;
   font-weight: 600;
   color: var(--Secondary-color);
   font-family: "Oregon LDO", sans-serif;
@@ -1243,7 +1243,7 @@ a:hover {
 }
 
 .contact-info .service-inner-item h2 {
-  font-size: 24px;
+  font-size: 23px;
   color: var(--white);
   font-weight: 700;
   font-family: "Oregon LDO", sans-serif;
@@ -1266,7 +1266,7 @@ a:hover {
 .contact-info .contact-item p {
   color: var(--white);
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   margin: 0;
 }
 
@@ -1280,7 +1280,7 @@ a:hover {
 .contact-info .service-inner-item a {
   color: var(--white);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
 }
 

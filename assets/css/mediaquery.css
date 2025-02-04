@@ -113,6 +113,10 @@
     font-size: 16px;
   }
 
+  .menu-section .menu-item {
+    margin: 10px 10px;
+  }
+
   .hero-section .counter .counter-main .count-box-1 h3 span,
   .hero-section .counter .counter-main .count-box-2 h3 span {
     font-size: 20px;

@@ -68,6 +68,10 @@
     font-size: 40px;
   }
 
+  .hero-section .counter h2 {
+    font-size: 30px;
+  }
+
   .about-section .section-title h2,
   .menu-section .section-title h2,
   .why-choose-section .section-title h2,
